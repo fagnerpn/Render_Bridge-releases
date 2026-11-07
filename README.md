@@ -1,6 +1,6 @@
 # Render Bridge — downloads
 
-**Render Bridge** para Windows e Mac (SketchUp → renders fotorrealistas com IA).
+**Render Bridge** para Windows e Mac (SketchUp e Revit → renders fotorrealistas com IA).
 
 ## Baixar
 
@@ -16,7 +16,9 @@ Versões anteriores: [Releases](https://github.com/fagnerpn/Render_Bridge-releas
 1. Rode o `RenderBridge-Setup.exe`. Instala só para o seu usuário, sem pedir administrador.
 2. Se o Windows mostrar "O Windows protegeu seu PC": **Mais informações → Executar assim mesmo**
    (o instalador não tem assinatura digital paga).
-3. Deixe marcada a opção **Instalar o plugin no SketchUp** e reinicie o SketchUp.
+3. Deixe marcadas as opções **Instalar o plugin no SketchUp** e **Instalar o plugin no Revit**
+   (o instalador acha as versões instaladas — Revit 2022 a 2026 — e coloca a certa em cada uma).
+   Reinicie o SketchUp / Revit: aparece o menu **Extensões › Render Bridge** e a aba **Render Bridge**.
 4. Abra o Render Bridge → ⚙ **Configurações** → cole a **sua** chave da API do Google Gemini
    (`aistudio.google.com` → *Get API key*, com billing ativo). Os renders são cobrados na sua conta.
 
@@ -34,6 +36,8 @@ Versões anteriores: [Releases](https://github.com/fagnerpn/Render_Bridge-releas
 5. Cole a sua chave da API do Google Gemini em ⚙ **Configurações**, como no Windows.
 
 No Mac, a "captura de janela" não existe — use o plugin do SketchUp ou importe as imagens exportadas.
+
+Ao capturar pelo plugin, a vista é preparada só durante a exportação (sem arestas, sem anotações) e volta ao normal logo depois.
 
 O app se atualiza sozinho nos dois sistemas: quando sair uma versão nova, aparece um aviso no topo da janela.
 
